@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 100vh;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+span {
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+}
+.image-container {
+  background: url(./assets/WhatsApp\ Image\ 2023-09-11\ at\ 4.51.24\ PM.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ties-container {
+  background: url(./assets/Capture.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.details,
+.ceremony,
+.reception {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* .details {
+  height: 100vh;
+  background: url(./assets/Capture2.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
