@@ -13,6 +13,39 @@ h3 {
   letter-spacing: 3px;
   margin-top: 20px;
 }
+.carousel-container {
+  position: relative;
+  width: 100vw;
+  /* height: 100vh; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item {
+  width: 100%;
+  height: fit-content;
+
+  flex: 0 0 100%;
+  /* padding: 20px; */
+  text-align: center;
+  /* border: 1px solid #ddd; */
+}
+.carousel-item img {
+  width: 100%;
+  height: fit-content;
+}
+
+button {
+  margin-top: 10px;
+}
 
 @media (max-width: 768px) {
 }
@@ -22,6 +55,8 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  /* position: relative;
+  z-index: -1; */
 }
 
 .ties-container {
@@ -30,6 +65,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
+  /* position: absolute; */
 }
 
 .details,

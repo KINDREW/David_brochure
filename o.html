@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .carousel-container {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+
+      .carousel {
+        display: flex;
+        transition: transform 0.3s ease;
+      }
+
+      .carousel-item {
+        flex: 0 0 100%;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+
+      button {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="carousel-item">Item 1</div>
+        <div class="carousel-item">Item 2</div>
+        <div class="carousel-item">Item 3</div>
+        <!-- Add more items as needed -->
+      </div>
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+    <script>
+      const carousel = document.querySelector(".carousel");
+      const prevButton = document.getElementById("prevBtn");
+      const nextButton = document.getElementById("nextBtn");
+
+      let currentIndex = 0;
+      let intervalId;
+
+      function updateCarousel() {
+        const itemWidth = carousel.offsetWidth;
+        carousel.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+      }
+
+      function nextSlide() {
+        const numItems = document.querySelectorAll(".carousel-item").length;
+        if (currentIndex < numItems - 1) {
+          currentIndex++;
+        } else {
+          currentIndex = 0; // Loop back to the first item when reaching the end
+        }
+        updateCarousel();
+      }
+
+      function startAutoplay() {
+        intervalId = setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
+      }
+
+      function stopAutoplay() {
+        clearInterval(intervalId);
+      }
+
+      nextButton.addEventListener("click", () => {
+        nextSlide();
+        stopAutoplay(); // Stop autoplay on user interaction
+      });
+
+      prevButton.addEventListener("click", () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+        } else {
+          const numItems = document.querySelectorAll(".carousel-item").length;
+          currentIndex = numItems - 1; // Jump to the last item when at the beginning
+        }
+        updateCarousel();
+        stopAutoplay(); // Stop autoplay on user interaction
+      });
+
+      startAutoplay(); // Start autoplay when the page loads
+
+      // Optionally, you can also stop autoplay when the mouse hovers over the carousel:
+      carousel.addEventListener("mouseenter", stopAutoplay);
+      carousel.addEventListener("mouseleave", startAutoplay);
+    </script>
+  </body>
+</html>
