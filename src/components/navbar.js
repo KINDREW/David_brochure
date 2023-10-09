@@ -1,10 +1,12 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { Link as ScrollLink, Element } from "react-scroll";
 
 import "./navbar.css";
 
 const Navabr = () => {
   const targetRef = useRef(null);
+
+  const [isOpen, setIsOpen] = useState(true);
 
   const sideMenu = () => {
     const navbar = targetRef.current;
@@ -15,6 +17,15 @@ const Navabr = () => {
       } else {
         navbar.classList.add("appear");
       }
+    }
+  };
+
+  const closeNav = () => {
+    setIsOpen(true);
+    const navbar = targetRef.current;
+
+    if (isOpen) {
+      navbar.classList.remove("appear");
     }
   };
 
@@ -34,8 +45,9 @@ const Navabr = () => {
             offset={-70} // Adjust this offset as needed
             duration={500}
           >
-            <li>Home</li>
+            <li onClick={closeNav}>Home</li>
           </ScrollLink>
+
           <ScrollLink
             to="ourstory"
             spy={true}
@@ -43,7 +55,7 @@ const Navabr = () => {
             offset={-70} // Adjust this offset as needed
             duration={500}
           >
-            <li>Our Story</li>
+            <li onClick={closeNav}>Our Story</li>
           </ScrollLink>
           <ScrollLink
             to="details"
@@ -52,10 +64,10 @@ const Navabr = () => {
             offset={-70} // Adjust this offset as needed
             duration={500}
           >
-            <li>Details</li>
+            <li onClick={closeNav}>Details</li>
           </ScrollLink>
-          <li>Brochure</li>
-          <li>Gallery</li>
+          <li onClick={closeNav}>Brochure</li>
+          <li onClick={closeNav}>Gallery</li>
         </ul>
       </nav>
     </div>

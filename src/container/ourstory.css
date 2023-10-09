@@ -34,7 +34,9 @@
 
 @media (max-width: 426px) {
   .ourstory h1 {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 10px;
   }
 
   .ourstory p {
