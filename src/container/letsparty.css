@@ -1,0 +1,36 @@
+.party {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f7e9e8;
+  padding: 100px;
+}
+
+.party h5 {
+  font-family: "Bradon Grotesque", sans-serif;
+  font-weight: 100;
+  font-size: 27px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  line-height: 50px;
+  color: #2f2e2e;
+}
+
+.party button {
+  padding: 20px 30px;
+  text-transform: uppercase;
+  border: none;
+}
+
+@media (max-width: 426px) {
+  .party {
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .party h5 {
+    font-size: 19px;
+  }
+}

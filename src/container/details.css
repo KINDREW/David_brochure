@@ -1,0 +1,85 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fafafa;
+  padding-bottom: 100px;
+}
+
+.weddingday {
+  padding-top: 200px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-left: 70px;
+}
+
+.weddingday h5 {
+  font-family: "Bradon Grotesque", sans-serif;
+  font-weight: 100;
+  font-size: 27px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  line-height: 50px;
+  background: url(../asserts/download.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #2f2e2e;
+}
+
+.location {
+  width: 50%;
+  padding-top: 200px;
+}
+
+.location1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Cormorant Upright", serif;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.biggie {
+  color: #e3c5c1;
+}
+
+@media (max-width: 426px) {
+  .details {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+  }
+
+  .weddingday {
+    width: 100%;
+    /* background: red; */
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  .weddingday h5 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .location {
+    width: 100%;
+    /* background: red; */
+    margin: 0;
+    padding: 0;
+  }
+
+  .location1 {
+    padding: 0;
+    margin: 0;
+    padding-left: 50px;
+  }
+}

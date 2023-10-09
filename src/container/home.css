@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Bradon Grotesque";
+  src: url("../fonts/HvDTrial_Brandon_Grotesque_light-BF64a625c93e709.otf")
+    format("otf");
+}
+
+.home {
+  /* background: red; */
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+  background: #cccccc;
+}
+
+.names {
+  font-size: 27px;
+  font-family: "Bradon Grotesque", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 20px;
+  word-spacing: 10px;
+}
+
+.getting {
+  font-family: "Cormorant Upright", serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 426px) {
+  .names {
+    font-size: 13px;
+    letter-spacing: 10px;
+    word-spacing: 0px;
+  }
+
+  .getting {
+    font-size: 19;
+    margin-top: 10px;
+  }
+}
