@@ -73,7 +73,7 @@ const Navabr = () => {
             <li onClick={closeNav}>Details</li>
           </ScrollLink>
           <li onClick={closeNav}>
-            <Link to="brochure">Brochure</Link>
+            <a href="/brochure">Brochure</a>
           </li>
           <li onClick={closeNav}>Gallery</li>
         </ul>
