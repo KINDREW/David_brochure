@@ -18,18 +18,34 @@
 
 @media (max-width: 426px) {
   .navbar {
-    width: 100%;
     margin: 0;
+    position: absolute;
+    backdrop-filter: blur(25);
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    text-align: center;
   }
 
   .links {
     overflow: hidden;
     height: 0;
     transition: 2s;
+    background: #f7e9e8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .links li {
+    width: fit-content;
+    border-bottom: 1px solid grey;
   }
 
   .links.appear {
-    height: fit-content;
+    height: 70vh;
     transition: all 3s;
   }
   .bar {
