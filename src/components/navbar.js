@@ -5,17 +5,21 @@ import "./navbar.css";
 
 const Navabr = () => {
   const targetRef = useRef(null);
+  const targetRef2 = useRef(null);
 
   const [isOpen, setIsOpen] = useState(true);
 
   const sideMenu = () => {
     const navbar = targetRef.current;
+    const bar = targetRef2.current;
 
     if (navbar) {
       if (navbar.classList.contains("appear")) {
         navbar.classList.remove("appear");
+        bar.classList.remove("change");
       } else {
         navbar.classList.add("appear");
+        bar.classList.add("change");
       }
     }
   };
@@ -32,7 +36,7 @@ const Navabr = () => {
   return (
     <div className="navbar">
       <nav>
-        <div class="bar" onClick={sideMenu}>
+        <div class="bar" onClick={sideMenu} ref={targetRef2}>
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
