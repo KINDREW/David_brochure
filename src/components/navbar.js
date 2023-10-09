@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Link as ScrollLink, Element } from "react-scroll";
-
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navabr = () => {
@@ -49,7 +49,9 @@ const Navabr = () => {
             offset={-70} // Adjust this offset as needed
             duration={500}
           >
-            <li onClick={closeNav}>Home</li>
+            <Link to="/">
+              <li onClick={closeNav}>Home</li>
+            </Link>
           </ScrollLink>
 
           <ScrollLink
@@ -70,7 +72,9 @@ const Navabr = () => {
           >
             <li onClick={closeNav}>Details</li>
           </ScrollLink>
-          <li onClick={closeNav}>Brochure</li>
+          <li onClick={closeNav}>
+            <Link to="brochure">Brochure</Link>
+          </li>
           <li onClick={closeNav}>Gallery</li>
         </ul>
       </nav>

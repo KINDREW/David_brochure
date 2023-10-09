@@ -4,7 +4,7 @@
     format("otf");
 }
 
-.home {
+.yie {
   /* background: red; */
   height: 100vh;
   width: 100%;
@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 426px) {
-  .home {
+  .yie {
     margin-top: -50px;
   }
 

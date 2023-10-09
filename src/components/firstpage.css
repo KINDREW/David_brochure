@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
 @font-face {
   font-family: "Brittany";
   src: url("../fonts/BrittanySignature.ttf") format("ttf");
@@ -16,6 +18,9 @@
   .firstleft {
     width: 25%;
     background: #f7e9e8;
+    display: flex;
+    justify-content: center;
+    position: relative;
   }
 
   .firstright {
@@ -38,7 +43,7 @@
   }
 
   .rightTop {
-    font-family: "Brittany";
+    font-family: "Playfair Display", serif;
     font-style: italic;
     font-size: 50px;
     display: flex;
@@ -46,12 +51,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 250px;
+    font-weight: 500;
   }
   .rightmid {
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 12px;
-    font-family: "Glacial";
+    font-family: "Glacial", sans-serif;
   }
 
   .rightbottom {
@@ -61,5 +67,66 @@
 
   .rightbottom > * {
     margin-left: 5px;
+  }
+
+  .line {
+    transform: rotate(180deg);
+    background: #fafafa;
+
+    width: 5px;
+    height: 210px;
+    position: absolute;
+    align-self: end;
+  }
+
+  .welcome {
+    top: 30%;
+    font-size: 50px;
+    letter-spacing: 10px;
+    position: absolute;
+    transform: rotate(270deg);
+    color: #fafafa;
+    font-family: "Glacial";
+  }
+
+  .heading {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 100;
+    /* color: rgb(220, 204, 114); */
+  }
+
+  .underline {
+    width: 150px;
+  }
+
+  .subheading {
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+  }
+
+  .content1 {
+    margin-top: 20px;
+    font-family: "Cormorant Upright", serif;
+    font-size: 20px;
+    line-height: 30px;
   }
 }
