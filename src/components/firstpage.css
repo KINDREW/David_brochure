@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Brittany";
+  src: url("../fonts/BrittanySignature.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Glacial";
+  src: url("../fonts/GlacialIndifference-Regular.otf") format("otf");
+}
+
+@media (max-width: 426px) {
+  .firstpage {
+    display: flex;
+    height: 100vh;
+  }
+
+  .firstleft {
+    width: 25%;
+    background: #f7e9e8;
+  }
+
+  .firstright {
+    width: 75%;
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 1),
+        rgba(59, 59, 59, 0.32)
+      ),
+      url(../asserts/WhatsApp\ Image\ 2023-09-11\ at\ 4.51.24\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f7e9e8;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rightTop {
+    font-family: "Brittany";
+    font-style: italic;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+  }
+  .rightmid {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-family: "Glacial";
+  }
+
+  .rightbottom {
+    font-family: "Glacial";
+    font-size: 20px;
+  }
+
+  .rightbottom > * {
+    margin-left: 5px;
+  }
+}

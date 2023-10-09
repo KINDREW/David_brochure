@@ -1,5 +1,6 @@
 import "./App.css";
 import Navabr from "./components/navbar";
+import Brochure from "./container/brochure";
 import Details from "./container/details";
 import Home from "./container/home";
 import Party from "./container/letsparty";
@@ -20,6 +21,7 @@ function App() {
         <Details />
       </Element>
       <Party />
+      <Brochure />
     </div>
   );
 }
