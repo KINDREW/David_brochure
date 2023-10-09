@@ -1,3 +1,5 @@
+const bar = document.querySelector(".bar");
+const navMenu = document.querySelector(".link");
 const carousel = document.querySelector(".carousel");
 const prevButton = document.getElementById("prevBtn");
 const nextButton = document.getElementById("nextBtn");
@@ -49,3 +51,16 @@ nextSlide();
 // Optionally, you can also stop autoplay when the mouse hovers over the carousel:
 carousel.addEventListener("mouseenter", stopAutoplay);
 carousel.addEventListener("mouseleave", startAutoplay);
+
+bar.addEventListener("click", showMenu);
+
+function showMenu() {
+  let value = navMenu.classList.contains("appear");
+  if (value) {
+    navMenu.classList.remove("appear");
+    bar.classList.remove("change");
+  } else {
+    navMenu.classList.add("appear");
+    bar.classList.add("change");
+  }
+}
