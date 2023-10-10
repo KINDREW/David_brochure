@@ -3,10 +3,6 @@ import "./firstpage.css";
 const FirstPage = () => {
   return (
     <div className="firstpage">
-      <span className="firstleft">
-        <div className="welcome">WELCOME</div>
-        <div className="line"></div>
-      </span>
       <div className="firstright">
         <div className="rightTop">
           <span>David</span>
