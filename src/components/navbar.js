@@ -27,9 +27,11 @@ const Navabr = () => {
   const closeNav = () => {
     setIsOpen(true);
     const navbar = targetRef.current;
+    const bar = targetRef2.current;
 
     if (isOpen) {
       navbar.classList.remove("appear");
+      bar.classList.remove("change");
     }
   };
 
@@ -72,9 +74,9 @@ const Navabr = () => {
           >
             <li onClick={closeNav}>Details</li>
           </ScrollLink>
-          <li onClick={closeNav}>
-            <a href="/brochure">Brochure</a>
-          </li>
+          <Link to="/brochure">
+            <li onClick={closeNav}>Brochure</li>
+          </Link>
           <li onClick={closeNav}>Gallery</li>
         </ul>
       </nav>

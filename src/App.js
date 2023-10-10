@@ -13,12 +13,16 @@ function App() {
     <Router>
       <div className="App">
         <Navabr />
-
-        <Element name="home">
-          <Home />
-        </Element>
-
-        <Brochure />
+        <Switch>
+          <Route exact path="/">
+            <Element name="home">
+              <Home />
+            </Element>
+          </Route>
+          <Route path="/brochure">
+            <Brochure />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );

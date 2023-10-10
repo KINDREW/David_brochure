@@ -46,7 +46,7 @@
 
   .links.appear {
     height: 70vh;
-    transition: all 3s;
+    transition: all 2s ease;
   }
   .bar {
     float: right;
