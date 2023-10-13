@@ -91,7 +91,7 @@
 
   .heading {
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: 100;
@@ -108,7 +108,7 @@
 
   .subheading {
     margin-top: 15px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -135,9 +135,9 @@
     margin-top: 20px;
     margin-bottom: 15px;
     /* margin-left: -25px; */
-    background: white;
+    /* background: white; */
     font-family: "Cormorant Upright", serif;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
     /* width: 100%; */
     /* background: yellow; */
@@ -151,10 +151,14 @@
 }
 @media (max-width: 376px) {
   .content1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .heading {
+    font-size: 1rem;
+  }
+
+  .subheading {
     font-size: 1.2rem;
   }
 }
@@ -168,10 +172,6 @@
   }
 
   .subheading {
-    /* margin-left: -5px; */
-  }
-
-  .underline {
-    /* margin-left: -5px; */
+    font-size: 1.2rem;
   }
 }

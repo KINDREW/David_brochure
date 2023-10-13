@@ -1,15 +1,25 @@
+import Eightpage from "../components/eightpage";
+import Fifthpage from "../components/fifthpage";
 import FirstPage from "../components/firstpage";
-import SecondPage from "../components/secondpage";
+import Fourthpage from "../components/fourthpage";
+
 import "../components/navbar";
-import Third from "../components/third";
-import Background from "../components/background";
+import SecondPage from "../components/secondpage";
+import Seventhpage from "../components/seventhpage";
+import Sixthpage from "../components/sixthpage";
+import Thirdpage from "../components/thirdpage";
 
 const Brochure = () => {
   return (
     <div className="brochure">
       <FirstPage />
-      <Third />
-      <Background />
+      <SecondPage />
+      <Thirdpage />
+      <Fourthpage />
+      <Fifthpage />
+      <Sixthpage />
+      <Seventhpage />
+      <Eightpage />
     </div>
   );
 };

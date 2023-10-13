@@ -34,5 +34,75 @@
     align-items: center;
     top: 0%;
   }
+
+  .nn {
+    padding-top: 50px;
+  }
+
+  .pp {
+    /* border: 1px solid black; */
+    width: 100px;
+  }
+  .tata {
+    margin: 0;
+    padding: 0;
+  }
+
+  .oi span {
+    background-color: white;
+    /* margin-top: -50px;s */
+    font-size: 1.5rem;
+  }
+
+  .oi small {
+    font-size: 13px;
+  }
+
+  .bos {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+  }
+
+  .bruce {
+    /* width: 100%; */
+    font-family: "Cormorant Upright", serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    background: white;
+  }
+
+  .xc {
+    margin-top: -10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+  .bru {
+    margin-top: 0px;
+    font-family: "Cormorant Upright", serif;
+    font-size: 20px;
+    line-height: 30px;
+    background: white;
+  }
+
+  .bruced {
+    font-family: "Cormorant Upright", serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    background: white;
+  }
 }
 /*  */
