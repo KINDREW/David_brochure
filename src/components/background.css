@@ -1,0 +1,38 @@
+@media (max-width: 426px) {
+  .bg {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .wandecoal {
+    position: absolute;
+    height: 100%;
+  }
+
+  .burnaboy {
+    position: absolute;
+    height: 100%;
+  }
+
+  .wizkid {
+    position: absolute;
+    height: 100%;
+  }
+
+  .fireboy {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+  }
+}
+/*  */
