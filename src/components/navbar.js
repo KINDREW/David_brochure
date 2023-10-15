@@ -57,15 +57,6 @@ const Navabr = () => {
           </ScrollLink>
 
           <ScrollLink
-            to="ourstory"
-            spy={true}
-            smooth={true}
-            offset={-70} // Adjust this offset as needed
-            duration={500}
-          >
-            <li onClick={closeNav}>Our Story</li>
-          </ScrollLink>
-          <ScrollLink
             to="details"
             spy={true}
             smooth={true}

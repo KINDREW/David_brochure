@@ -15,8 +15,7 @@ const Details = () => {
         <div className="location1">
           <span className="biggie">When</span>
           <span>Saturday, Oct 23, 2023</span>
-          <span>Wedding Ceremony: 10:00pm</span>
-          <span>Wedding Reception: 12:00pm</span>
+          <span>Wedding Ceremony: 11:30pm</span>
         </div>
         <div className="location1">
           <span className="biggie" style={{ paddingTop: "20px" }}>
@@ -37,7 +36,7 @@ const Details = () => {
             <br />
             <a
               style={{ textDecoration: "underline", marginTop: "10px" }}
-              href="#"
+              href="https://maps.google.com/maps?q=6.686772240091932%2C-1.6489684581756592&z=17&hl=en"
             >
               View Map
             </a>

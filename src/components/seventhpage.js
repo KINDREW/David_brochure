@@ -16,7 +16,7 @@ const Seventhpage = () => {
         <span className="bruced">Arrival of Guest </span>
         <span className="bruced"> Opening Prayer</span>
         <span className="bruced">Welcome Address </span>
-        <span className="bruced">Cocktails Sereved </span>
+        <span className="bruced">Cocktails Served </span>
         <span className="bruced">Music Interlude </span>
         <span className="bruced">Bridal Train Entry </span>
         <span className="bruced">Bride & Groom Entry </span>

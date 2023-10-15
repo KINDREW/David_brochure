@@ -26,7 +26,7 @@
 
 .slide {
   position: absolute;
-  margin-top: 250px;
+  /* margin-top: 250px; */
   /* background: #cccccc; */
   width: 70%;
   height: 80vh;

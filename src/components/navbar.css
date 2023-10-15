@@ -21,13 +21,12 @@
     margin: 0;
     position: absolute;
     backdrop-filter: blur(25);
-    /* width: 100%; */
+    width: 100%;
     top: 0%;
     left: 0%;
     text-align: center;
     /* background: red; */
     padding: 0;
-    margin-left: 51%;
   }
 
   .links {
@@ -48,7 +47,8 @@
   }
 
   .links.appear {
-    height: 70vh;
+    height: 100vh;
+    width: 100vw;
     transition: all 1s ease;
   }
   .bar {
@@ -57,6 +57,8 @@
     width: 40px;
     height: 30px;
     transition: all 1s ease;
+    /* background-color: aqua; */
+    margin-left: 250px;
   }
   .bar1,
   .bar2,
@@ -68,26 +70,35 @@
     transition: all 1s ease;
   }
   .bar1 {
+    transition: all 1s ease;
+
     height: 1px;
   }
 
   .bar2 {
+    transition: all 1s ease;
+
     height: 2px;
   }
 
   .bar3 {
+    transition: all 1s ease;
+
     height: 3px;
   }
   .change .bar1 {
-    transform: rotate(45deg) translate(15px, 0px);
-    height: 1px;
+    transform: rotate(45deg) translate(10px, -3px);
+    height: 3px;
+    transition: all 1s ease;
+    margin-top: 40px;
   }
   .change .bar2 {
     /* transform: rotate(45deg) translate(10px, 10px); */
     opacity: 0;
   }
   .change .bar3 {
-    transform: rotate(-45deg) translate(10px, 0px);
-    height: 1px;
+    transform: rotate(-45deg) translate(15px, -4px);
+    height: 3px;
+    transition: all 1s ease;
   }
 }
