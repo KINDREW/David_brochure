@@ -21,10 +21,13 @@
     margin: 0;
     position: absolute;
     backdrop-filter: blur(25);
-    width: 100%;
+    /* width: 100%; */
     top: 0%;
     left: 0%;
     text-align: center;
+    /* background: red; */
+    padding: 0;
+    margin-left: 51%;
   }
 
   .links {
