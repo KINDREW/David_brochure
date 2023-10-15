@@ -14,8 +14,8 @@ const Details = () => {
       <div className="location">
         <div className="location1">
           <span className="biggie">When</span>
-          <span>Saturday, Oct 23, 2023</span>
-          <span>Wedding Ceremony: 11:30pm</span>
+          <span>Saturday, Oct 21, 2023</span>
+          <span>Wedding Ceremony: 11:30am</span>
         </div>
         <div className="location1">
           <span className="biggie" style={{ paddingTop: "20px" }}>

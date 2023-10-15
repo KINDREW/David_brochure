@@ -13,31 +13,37 @@ const Sixthpage = () => {
       <div className="fireboy">
         <span class="subheading  nn xc">RECEPTION</span>
         <img class="underline" src={underline} alt="" />
-        <span class="content">
-          <strong> HOST </strong> <br />{" "}
+        <span class="content" style={{ marginTop: "20px" }}>
+          <strong> HOST </strong> <br />
         </span>
-        <span class="bru">Joseph Kumi</span>
-        <span class="content">
+        <span class="bru" style={{ fontSize: "23px" }}>
+          Joseph Kumi
+        </span>
+        <span class="content" style={{ marginTop: "20px" }}>
           <strong>PARENTS OF THE BRIDE</strong>
         </span>
-        <span class="bru">Anthony Mensah & Vivian Asabere</span>
-        <span class="content">
+        <span class="bru" style={{ fontSize: "23px" }}>
+          Anthony Mensah & Vivian Asabere
+        </span>
+        <span class="content " style={{ marginTop: "20px" }}>
           <strong> PARENTS OF THE GROoM </strong>
         </span>
-        <span class="bru">Sylvia Afful (Mrs.)</span>
+        <span class="bru" style={{ fontSize: "23px" }}>
+          Sylvia Afful (Mrs.)
+        </span>
 
-        <span class="content">
+        <span class="content" style={{ marginTop: "20px" }}>
           <strong>MAID OF HONOR</strong>
         </span>
-        <span class="bru"> Maud Adu</span>
-        <span class="content">
+        <span class="bru" style={{ fontSize: "23px" }}>
+          Maud Adu
+        </span>
+        <span class="content" style={{ marginTop: "20px" }}>
           <strong>BESTMAN</strong>
         </span>
-        <span class="bru">Maxwel Mantey</span>
-        <span class="content">
-          <strong>RING BEARER</strong>
+        <span class="bru" style={{ fontSize: "23px" }}>
+          Maxwel Mantey
         </span>
-        <span class="bru">Dj Lynka</span>
       </div>
     </div>
   );

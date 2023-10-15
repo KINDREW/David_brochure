@@ -11,7 +11,10 @@ const Fifthpage = () => {
       <img className="burnaboy" src={middle} alt="" />
       <img className="wizkid" src={front} alt="" />
       <div className="fireboy">
-        <span class="subheading  nn xc">
+        <span
+          class="subheading  nn xc"
+          style={{ fontSize: "1rem", marginTop: "48px" }}
+        >
           Order Of <br /> Service
         </span>
         <img class="underline" src={underline} alt="" />

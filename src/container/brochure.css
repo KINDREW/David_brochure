@@ -1,5 +1,12 @@
 .brochure {
-  background: green;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
   height: 100vh;
-  width: 100vw;
+}
+
+.brochure > * {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  height: 100vh;
+  /* Add other styling as needed */
 }

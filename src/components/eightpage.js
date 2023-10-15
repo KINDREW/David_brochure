@@ -15,6 +15,7 @@ const Eightpage = () => {
         <img class="underline" src={underline} alt="" />
         <span className="bruced">Our Story </span>
         <span className="bruced"> Toast</span>
+        <span className="bruced"> Couple Games</span>
         <span className="bruced">Couple's First Dance </span>
         <span className="bruced">Vote of Thanks </span>
         <span className="bruced">Bouquet Throwing </span>

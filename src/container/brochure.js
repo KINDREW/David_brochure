@@ -2,7 +2,7 @@ import Eightpage from "../components/eightpage";
 import Fifthpage from "../components/fifthpage";
 import FirstPage from "../components/firstpage";
 import Fourthpage from "../components/fourthpage";
-
+import "./brochure.js";
 import "../components/navbar";
 import SecondPage from "../components/secondpage";
 import Seventhpage from "../components/seventhpage";
