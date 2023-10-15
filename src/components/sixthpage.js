@@ -16,7 +16,7 @@ const Sixthpage = () => {
         <span class="content">
           <strong> HOST </strong> <br />{" "}
         </span>
-        <span class="bru">Michael Asare Boadu</span>
+        <span class="bru">Joseph Kumi</span>
         <span class="content">
           <strong>PARENTS OF THE BRIDE</strong>
         </span>
@@ -25,17 +25,7 @@ const Sixthpage = () => {
           <strong> PARENTS OF THE GROoM </strong>
         </span>
         <span class="bru">Sylvia Afful (Mrs.)</span>
-        <span class="content">
-          <strong>BRIDES MAIDS</strong>
-        </span>
-        <span className="bru">Alicia Iris Smith</span>
-        <span className="bru">Juvy T. Smith</span>
-        <span class="content">
-          <strong>GROOMS MEN</strong>
-        </span>
-        <span class="bru">Harold O. Berkshire </span>
-        <span className="bru">James S. Sifonn</span>
-        <span className="bru">Peter P. Norwester</span>
+
         <span class="content">
           <strong>MAID OF HONOR</strong>
         </span>
@@ -44,6 +34,10 @@ const Sixthpage = () => {
           <strong>BESTMAN</strong>
         </span>
         <span class="bru">Maxwel Mantey</span>
+        <span class="content">
+          <strong>RING BEARER</strong>
+        </span>
+        <span class="bru">Dj Lynka</span>
       </div>
     </div>
   );

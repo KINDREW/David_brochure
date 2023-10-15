@@ -11,7 +11,7 @@ const Thirdpage = () => {
       <img className="burnaboy" src={middle} alt="" />
       <img className="wizkid" src={front} alt="" />
       <div className="fireboy">
-        {/* <span class="heading nn">Ceremony</span> */}
+       
         <span class="subheading  nn ">
           Officiating <br /> Ministers
         </span>

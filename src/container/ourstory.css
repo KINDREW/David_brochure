@@ -44,15 +44,39 @@
     text-align: left;
     padding-left: 20px;
     font-size: 19px;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .ourstory {
     height: 250px;
     padding-bottom: 200px;
+    position: relative;
   }
 
   .slide {
     height: 300px;
+  }
+
+  .comma {
+    font-size: 90px;
+    position: absolute;
+    top: 53%;
+    font-family: "Poppins";
+  }
+  .comma1 {
+    font-size: 90px;
+    position: absolute;
+    top: 30%;
+    font-family: "Poppins";
+  }
+
+  .author {
+    font-size: 25px;
+    /* font-family: "Poppins"; */
+
+    position: absolute;
+    top: 69%;
+    left: 67%;
+    /* background: red; */
   }
 }

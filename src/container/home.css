@@ -13,7 +13,14 @@
   flex-direction: column;
   padding-top: 100px;
   align-items: center;
-  background: #cccccc;
+  justify-content: end;
+  background: linear-gradient(rgba(39, 38, 38, 0.32), rgba(0, 0, 0, 1)),
+    url(../asserts/WhatsApp\ Image\ 2023-10-14\ at\ 8.27.15\ AM.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 30%;
 }
 
 .names {
@@ -34,11 +41,11 @@
 
 @media (max-width: 426px) {
   .yie {
-    margin-top: -50px;
+    /* margin-top: -50px; */
   }
 
   .names {
-    font-size: 13px;
+    font-size: 25px;
     letter-spacing: 10px;
     word-spacing: 0px;
   }

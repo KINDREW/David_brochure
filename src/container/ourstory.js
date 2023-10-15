@@ -5,13 +5,15 @@ const OurStory = () => {
     <div className="ourstory">
       <h1>She said yes</h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        vitae debitis nihil laboriosam libero doloremque minus sunt est, facilis
-        expedita veritatis architecto labore repellat. Expedita ipsam fugit eos
-        voluptates repudiandae!
+        <span className="comma1">"</span>I don't know where I'd be without you
+        here with me. <br /> Life with you makes perfect sense.
+        <span className="comma">"</span>
+        <span className="author">Tim McGraw</span>
       </p>
 
-      <div className="slide"></div>
+      <div className="slide">
+        <img src="https://photos.app.goo.gl/aR9k4JwwZSwoeAev7" alt="" />
+      </div>
     </div>
   );
 };
