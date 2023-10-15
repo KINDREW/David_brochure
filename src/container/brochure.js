@@ -8,6 +8,8 @@ import SecondPage from "../components/secondpage";
 import Seventhpage from "../components/seventhpage";
 import Sixthpage from "../components/sixthpage";
 import Thirdpage from "../components/thirdpage";
+import Ninthpage from "../components/ninthpage";
+import Tenth from "../components/tenthpage";
 
 const Brochure = () => {
   return (
@@ -17,6 +19,8 @@ const Brochure = () => {
       <Thirdpage />
       <Fourthpage />
       <Fifthpage />
+      <Ninthpage />
+      <Tenth />
       <Sixthpage />
       <Seventhpage />
       <Eightpage />

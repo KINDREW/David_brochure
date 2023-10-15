@@ -34,6 +34,18 @@
     align-items: center;
     top: 0%;
   }
+  .joeboy {
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    /* background: red; */
+  }
 
   .nn {
     padding-top: 50px;
@@ -74,6 +86,15 @@
     font-size: 22px;
     font-weight: 500;
     background: white;
+  }
+  .brucep {
+    /* width: 100%; */
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    /* background: white; */
   }
 
   .xc {
