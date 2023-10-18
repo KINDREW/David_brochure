@@ -50,20 +50,18 @@
 
   .ourstory {
     height: 250px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     position: relative;
   }
 
   .slide {
     height: 300px;
     margin-top: 0;
-    top: 48%;
+    top: 45%;
   }
 
   .braT {
-    position: absolute;
-    top: 77%;
-    left: 15%;
+    margin-left: 50px;
   }
 
   .carousel {

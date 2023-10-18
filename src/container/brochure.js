@@ -11,6 +11,7 @@ import Thirdpage from "../components/thirdpage";
 import Ninthpage from "../components/ninthpage";
 import Tenth from "../components/tenthpage";
 import "./brochure.css";
+import Credits from "../components/credits";
 
 const Brochure = () => {
   return (
@@ -45,7 +46,9 @@ const Brochure = () => {
         <div>
           <Eightpage />
         </div>
-        <div className="lm"></div>
+        <div className="lm">
+          <Credits />
+        </div>
       </div>
     </div>
   );

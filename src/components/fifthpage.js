@@ -18,7 +18,7 @@ const Fifthpage = () => {
           Order Of <br /> Service
         </span>
         <img class="underline" src={underline} alt="" />
-        <span className="bruce">12. Hymn - MHB 777 </span>
+        <span className="bruce"> Hymn - MHB 777 </span>
         <span className="bruce">
           Ministry of the Word: <br />❖ Ephesians 5:22-31 ❖ John 2:1-11
         </span>
