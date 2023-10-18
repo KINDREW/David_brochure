@@ -9,9 +9,10 @@ const Credits = () => {
       <div className="bg">
         <img className="wandecoal" src={back} alt="" />
         <img className="burnaboy" src={middle} alt="" />
+
         <img className="wizkid" src={front} alt="" />
         <div className="fireboy">
-          <span class="subheading">CREDITS</span>
+          <span class="subheading lkl">CREDITS</span>
           <img class="underline" src={underline} alt="" />
           <span class="content" style={{ marginTop: "15px" }}>
             <strong> Bride's Makeup </strong> <br />

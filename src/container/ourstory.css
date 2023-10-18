@@ -64,6 +64,11 @@
     margin-left: 15px;
   }
 
+  .lkl {
+    background: red;
+    padding-top: 20px;
+  }
+
   .carousel {
     width: 100%;
   }
