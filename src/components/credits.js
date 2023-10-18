@@ -11,46 +11,46 @@ const Credits = () => {
         <img className="burnaboy" src={middle} alt="" />
         <img className="wizkid" src={front} alt="" />
         <div className="fireboy">
-          <span class="subheading pop  nn">CREDITS</span>
+          <span class="subheading">CREDITS</span>
           <img class="underline" src={underline} alt="" />
-          <span class="content" style={{ marginTop: "20px" }}>
+          <span class="content" style={{ marginTop: "15px" }}>
             <strong> Bride's Makeup </strong> <br />
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
             Annie's Beauty
           </span>
-          <span class="content" style={{ marginTop: "20px" }}>
+          <span class="content" style={{ marginTop: "15px" }}>
             <strong>Bride's Gown</strong>
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
             Poks Vocation Institute
           </span>
-          <span class="content " style={{ marginTop: "20px" }}>
+          <span class="content " style={{ marginTop: "15px" }}>
             <strong> Traditional wear </strong>
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
             Sherly Shane
           </span>
 
-          <span class="content" style={{ marginTop: "20px" }}>
+          <span class="content" style={{ marginTop: "15px" }}>
             <strong>Decor</strong>
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
             Lovely Baby
           </span>
-          <span class="content" style={{ marginTop: "20px" }}>
+          <span class="content" style={{ marginTop: "15px" }}>
             <strong>Photography</strong>
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
             Sarboat Photography
           </span>
-          <span class="content" style={{ marginTop: "20px" }}>
+          <span class="content" style={{ marginTop: "15px" }}>
             <strong>Cake</strong>
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
             Providentia Cakes
           </span>
-          <span class="content" style={{ marginTop: "20px" }}>
+          <span class="content" style={{ marginTop: "15px" }}>
             <strong>Catering</strong>
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
