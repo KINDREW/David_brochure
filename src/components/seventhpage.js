@@ -21,7 +21,9 @@ const Seventhpage = () => {
         <span className="bruced">Bridal Train Entry </span>
         <span className="bruced">Bride & Groom Entry </span>
         <span className="bruced">Main Meal Served</span>
-        <span className="bruced">Cutting of Cake</span>
+        <span className="bruced" style={{ marginTop: "0px" }}>
+          Cutting of Cake
+        </span>
       </div>
     </div>
   );

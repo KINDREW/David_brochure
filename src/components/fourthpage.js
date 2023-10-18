@@ -11,21 +11,21 @@ const Fourthpage = () => {
       <img className="burnaboy" src={middle} alt="" />
       <img className="wizkid" src={front} alt="" />
       <div className="fireboy">
-        <span class="subheading  nn xc">
+        <span class="subheading">
           Order Of <br /> Service
         </span>
         <img class="underline" src={underline} alt="" />
-        <span className="bruce">1. Processional Hymn - MHB 444 </span>
-        <span className="bruce">2. Opening Sentences </span>
-        <span className="bruce">3. Hymn - MHB 774 </span>
-        <span className="bruce">4. Prayer plus the Lord’s Prayer </span>
-        <span className="bruce">5. Declaration of Purpose </span>
-        <span className="bruce">6. Hymn - MHB 400 </span>
-        <span className="bruce">7. The Legal Declaration/Vows </span>
-        <span className="bruce">8. Hymn of Dedication - MHB 516 </span>
-        <span className="bruce">9. Marital Dedication/Giving of Rings </span>
-        <span className="bruce">10. Pronouncement of Marriage </span>
-        <span className="bruce">11. Blessing of the Marriage </span>
+        <span className="bruce"> Processional Hymn - MHB 444 </span>
+        <span className="bruce"> Opening Sentences </span>
+        <span className="bruce"> Hymn - MHB 64 </span>
+        <span className="bruce"> Prayer plus the Lord’s Prayer </span>
+        <span className="bruce"> Declaration of Purpose </span>
+        <span className="bruce"> Hymn - MHB 400 / MHB 774 </span>
+        <span className="bruce"> The Legal Declaration/Vows </span>
+        <span className="bruce"> Hymn of Dedication - MHB 516 </span>
+        <span className="bruce"> Marital Dedication/Giving of Rings </span>
+        <span className="bruce"> Pronouncement of Marriage </span>
+        <span className="bruce"> Blessing of the Marriage </span>
       </div>
     </div>
   );

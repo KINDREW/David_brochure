@@ -12,7 +12,7 @@ const Fifthpage = () => {
       <img className="wizkid" src={front} alt="" />
       <div className="fireboy">
         <span
-          class="subheading  nn xc"
+          class="subheading"
           style={{ fontSize: "1rem", marginTop: "48px" }}
         >
           Order Of <br /> Service
@@ -20,17 +20,17 @@ const Fifthpage = () => {
         <img class="underline" src={underline} alt="" />
         <span className="bruce">12. Hymn - MHB 777 </span>
         <span className="bruce">
-          13. Ministry of the Word: <br />❖ Ephesians 5:22-31 ❖ John 2:1-11
+          Ministry of the Word: <br />❖ Ephesians 5:22-31 ❖ John 2:1-11
         </span>
-        <span className="bruce">14. Anthem - Church Choir </span>
-        <span className="bruce">15. Sermon </span>
-        <span className="bruce">16. Holy Communion </span>
-        <span className="bruce">17. 1st Offertory </span>
-        <span className="bruce">18. Signing of Certificate </span>
-        <span className="bruce">19. 2nd Offertory</span>
-        <span className="bruce">20. Notices/Presentation of Certificate </span>
-        <span className="bruce">21. Closing Hymn - MHB 313 </span>
-        <span className="bruce km">22. Benediction/Bridal March </span>
+        <span className="bruce"> Anthem - Church Choir </span>
+        <span className="bruce"> Sermon </span>
+        <span className="bruce"> Holy Communion </span>
+        <span className="bruce"> 1st Offertory </span>
+        <span className="bruce"> Signing of Certificate </span>
+        <span className="bruce"> 2nd Offertory</span>
+        <span className="bruce"> Notices/Presentation of Certificate </span>
+        <span className="bruce"> Closing Hymn - MHB 313 </span>
+        <span className="bruce km"> Benediction/Bridal March </span>
       </div>
     </div>
   );

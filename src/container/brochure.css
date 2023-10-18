@@ -1,12 +1,59 @@
 .brochure {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  /* scroll-snap-type: y mandatory; */
+  /* overflow-x: scroll; */
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
 }
 
 .brochure > * {
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  height: 100vh;
+  /* height: 100vh; */
   /* Add other styling as needed */
+}
+
+.pages {
+  display: flex;
+  justify-content: space-between;
+  /* background: red; */
+}
+
+.pages > * {
+  width: 50%;
+  /* margin-left: 20px; */
+  /* padding: 10px; */
+
+  /* margin: 100px; */
+}
+
+.lm {
+  margin-left: 10px;
+}
+
+.pages div {
+  /* border: 1px solid black; */
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-left: none;
+  border-right: none;
+  /* background-color: red; */
+  overflow-x: hidden;
+}
+
+@media (max-width: 426px) {
+  .pages {
+    flex-direction: column;
+  }
+
+  .pages > * {
+    width: 100%;
+    height: 100vh;
+    overflow-y: visible;
+  }
+
+  .lm {
+    margin-left: 0px;
+  }
 }

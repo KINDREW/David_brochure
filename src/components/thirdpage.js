@@ -11,8 +11,7 @@ const Thirdpage = () => {
       <img className="burnaboy" src={middle} alt="" />
       <img className="wizkid" src={front} alt="" />
       <div className="fireboy">
-       
-        <span class="subheading  nn ">
+        <span class="subheading pop ">
           Officiating <br /> Ministers
         </span>
         <img class="underline pp" src={underline} alt="" />
@@ -37,7 +36,7 @@ const Thirdpage = () => {
           <br />
           <small>(CIRCUIT MINISTER)</small>
           <br />
-          <span>Rev. Solomon Anum-Doku</span>
+          <span style={{ background: "white" }}>Rev. Solomon Anum-Doku</span>
           <br /> <small>(CIRCUIT MINISTER)</small>
         </p>
       </div>

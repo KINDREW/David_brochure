@@ -13,7 +13,6 @@ const Eightpage = () => {
       <div className="fireboy">
         <span class="subheading  nn xc">RECEPTION</span>
         <img class="underline" src={underline} alt="" />
-        <span className="bruced">Our Story </span>
         <span className="bruced"> Toast</span>
         <span className="bruced"> Couple Games</span>
         <span className="bruced">Couple's First Dance </span>

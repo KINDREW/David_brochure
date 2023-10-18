@@ -1,3 +1,136 @@
+@media (max-width: 769px) {
+  .bg {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wandecoal {
+    position: absolute;
+    /* width: 30px; */
+    /* left: 30%; */
+    /* z-index: -5; */
+    /* z-index: -; */
+
+    /* width: 100%; */
+  }
+
+  .joeboy {
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    /* background: red; */
+  }
+
+  .nn {
+    padding-top: 50px;
+  }
+
+  .pop {
+    padding-top: 90px;
+  }
+
+  .pp {
+    /* border: 1px solid black; */
+    width: 100px;
+  }
+  .tata {
+    margin: 0;
+    padding: 0;
+  }
+
+  .oi span {
+    /* background-color: white; */
+    /* margin-top: -50px;s */
+    font-size: 1.2rem;
+  }
+
+  .oi small {
+    font-size: 13px;
+  }
+
+  .bos {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+  }
+
+  .bruce {
+    /* width: 100%; */
+    font-family: "Cormorant Upright", serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background: white;
+  }
+  .brucep {
+    /* width: 100%; */
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    /* background: white; */
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+  .bru {
+    margin-top: 0px;
+    font-family: "Cormorant Upright", serif;
+    font-size: 18px;
+    line-height: 30px;
+    background: white;
+  }
+
+  .bruced {
+    font-family: "Cormorant Upright", serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+  }
+
+  .wizkid {
+    position: absolute;
+    /*  */
+  }
+  .burnaboy {
+    position: absolute;
+    /* width: 70%; */
+  }
+
+  .fireboy {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+  }
+}
+
 @media (max-width: 426px) {
   .bg {
     display: flex;
@@ -47,10 +180,6 @@
     /* background: red; */
   }
 
-  .nn {
-    padding-top: 50px;
-  }
-
   .pp {
     /* border: 1px solid black; */
     width: 100px;
@@ -63,7 +192,7 @@
   .oi span {
     background-color: white;
     /* margin-top: -50px;s */
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .oi small {
@@ -82,8 +211,8 @@
     /* width: 100%; */
     font-family: "Cormorant Upright", serif;
     text-align: center;
-    margin-top: 15px;
-    font-size: 22px;
+    margin-top: 10px;
+    font-size: 18px;
     font-weight: 500;
     background: white;
   }
@@ -91,14 +220,14 @@
     /* width: 100%; */
     font-family: "Poppins";
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 15px;
     font-weight: 500;
     /* background: white; */
   }
 
-  .xc {
-    margin-top: -10px;
+  .nn {
+    padding-top: 0px;
   }
 
   a {
@@ -112,7 +241,7 @@
   .bru {
     margin-top: 0px;
     font-family: "Cormorant Upright", serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     background: white;
   }
@@ -121,7 +250,7 @@
     font-family: "Cormorant Upright", serif;
     text-align: center;
     margin-top: 15px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     background: white;
   }

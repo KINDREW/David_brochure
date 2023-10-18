@@ -10,20 +10,43 @@ import Sixthpage from "../components/sixthpage";
 import Thirdpage from "../components/thirdpage";
 import Ninthpage from "../components/ninthpage";
 import Tenth from "../components/tenthpage";
+import "./brochure.css";
 
 const Brochure = () => {
   return (
     <div className="brochure">
       <FirstPage />
-      <SecondPage />
-      <Thirdpage />
-      <Fourthpage />
-      <Fifthpage />
-      <Ninthpage />
-      <Tenth />
-      <Sixthpage />
-      <Seventhpage />
-      <Eightpage />
+      <div className="pages">
+        <div className="ml">
+          <SecondPage />
+        </div>
+        <div className="lm">
+          <Thirdpage />
+        </div>
+      </div>
+      <div className="pages">
+        <div>
+          <Fourthpage />
+        </div>
+        <div className="lm">
+          <Fifthpage />
+        </div>
+      </div>
+
+      <div className="pages">
+        <div>
+          <Sixthpage />
+        </div>
+        <div className="lm">
+          <Seventhpage />
+        </div>
+      </div>
+      <div className="pages">
+        <div>
+          <Eightpage />
+        </div>
+        <div className="lm"></div>
+      </div>
     </div>
   );
 };
