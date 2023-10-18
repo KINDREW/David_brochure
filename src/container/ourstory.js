@@ -9,8 +9,11 @@ const OurStory = () => {
     <div className="ourstory">
       <h1>She said yes</h1>
       <p>
-        "I don't know where I'd be without you here with me. Life with you makes
-        perfect sense." - Tim McGraw
+        <p style={{ fontStyle: "italic" }}>
+          "I don't know where I'd be without you here with me. Life with you
+          makes perfect sense."
+        </p>
+        <span className="braT">- Tim McGraw</span>
       </p>
 
       <div className="slide">
