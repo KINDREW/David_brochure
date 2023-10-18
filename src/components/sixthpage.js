@@ -38,7 +38,7 @@ const Sixthpage = () => {
         <span class="bru" style={{ fontSize: "18px" }}>
           Maud Adu
         </span>
-        <span class="content" style={{ marginTop: "0px" }}>
+        <span class="content" style={{ marginTop: "20px" }}>
           <strong>BESTMAN</strong>
         </span>
         <span class="bru" style={{ fontSize: "18px" }}>
