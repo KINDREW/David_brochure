@@ -12,6 +12,7 @@ import Ninthpage from "../components/ninthpage";
 import Tenth from "../components/tenthpage";
 import "./brochure.css";
 import Credits from "../components/credits";
+import Credits2 from "../components/credits_";
 
 const Brochure = () => {
   return (
@@ -48,6 +49,11 @@ const Brochure = () => {
         </div>
         <div className="lm">
           <Credits />
+        </div>
+      </div>
+      <div className="pages">
+        <div>
+          <Credits2 />
         </div>
       </div>
     </div>
