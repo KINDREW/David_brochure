@@ -2,15 +2,22 @@
   display: flex;
   height: 100vh;
   flex-direction: row;
-
-  background: #2f2e2e;
+  background: #f7e9e8;
+  /* background: #2f2e2e; */
   text-align: center;
   color: #fafafa;
   font-family: "Cormorant Upright", serif;
 }
 
 .started {
-  width: 50%;
+  /* background: #2f2e2e; */
+  background: #f7e9e8;
+  color: #2f2e2e;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .started img {
@@ -24,7 +31,27 @@
   width: 100%;
 }
 
-@media (max-width: 426px) {
+.lefttt {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.middleeee {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.rightttttt {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
   .gallery {
     flex-direction: column;
   }
@@ -33,6 +60,13 @@
     width: 100%;
     /* height: 90vh; */
     margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .started > * {
+    width: 85%;
   }
 
   .going {
