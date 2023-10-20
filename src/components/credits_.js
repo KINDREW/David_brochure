@@ -43,7 +43,7 @@ const Credits2 = () => {
             <strong>Web Development</strong>
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
-            Andrew
+            Andrew✌🏾
           </span>
         </div>
       </div>
