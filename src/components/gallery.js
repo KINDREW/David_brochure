@@ -6,6 +6,8 @@ import four from "../asserts/IMG-20181021-WA0006-PHOTO_FRAME.jpg";
 import five from "../asserts/IMG-20190512-WA0079-PHOTO_FRAME.jpg";
 import six from "../asserts/IMG-20200308-WA0078-PHOTO_FRAME.jpg";
 import seven from "../asserts/IMG-20220406-WA0011-PHOTO_FRAME.jpg";
+import eight from "../asserts/20201031_132442-PHOTO_FRAME.jpg";
+import nine from "../asserts/IMG-20201212-WA0019-PHOTO_FRAME.jpg";
 
 const Gallery = () => {
   return (
@@ -15,14 +17,17 @@ const Gallery = () => {
         <div className="lefttt">
           <img src={one} alt="" />
           <img src={four} alt="" />
+          <img src={seven} alt="" />
         </div>
         <div className="middleeee">
           <img src={two} alt="" />
           <img src={five} alt="" />
+          <img src={eight} alt="" />
         </div>
         <div className="rightttttt">
           <img src={three} alt="" />
           <img src={six} alt="" />
+          <img src={nine} alt="" />
         </div>
       </div>
     </div>
