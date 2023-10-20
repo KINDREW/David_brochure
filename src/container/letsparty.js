@@ -1,5 +1,6 @@
 import "./letsparty.css";
 import Confetti from "canvas-confetti";
+import { Link } from "react-router-dom";
 
 const Party = () => {
   const handleFireConfetti = () => {
@@ -19,6 +20,9 @@ const Party = () => {
   return (
     <div className="party">
       <h5>Let's Party</h5>
+      <Link to="/brochure">
+        <span>Click here for event brochure</span>
+      </Link>
       <button onClick={handleFireConfetti}>Ayefrow ooo!!!!</button>
     </div>
   );

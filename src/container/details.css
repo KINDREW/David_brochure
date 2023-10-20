@@ -5,7 +5,7 @@
   align-items: center;
   height: 100vh;
   background: #fafafa;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .weddingday {
@@ -14,6 +14,18 @@
   display: flex;
   justify-content: center;
   padding-left: 70px;
+}
+
+.gallery {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2f2e2e;
+  text-align: center;
+  color: #fafafa;
+  font-family: "Cormorant Upright", serif;
 }
 
 .weddingday h5 {
@@ -32,7 +44,13 @@
 
 .location {
   width: 50%;
-  padding-top: 200px;
+  padding-top: 300px;
+}
+@media (max-width: 768px) {
+  .location {
+    width: 50%;
+    padding-top: 250px;
+  }
 }
 
 .location1 {

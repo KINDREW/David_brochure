@@ -8,8 +8,6 @@ import SecondPage from "../components/secondpage";
 import Seventhpage from "../components/seventhpage";
 import Sixthpage from "../components/sixthpage";
 import Thirdpage from "../components/thirdpage";
-import Ninthpage from "../components/ninthpage";
-import Tenth from "../components/tenthpage";
 import "./brochure.css";
 import Credits from "../components/credits";
 import Credits2 from "../components/credits_";

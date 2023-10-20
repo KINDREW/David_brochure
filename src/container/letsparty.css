@@ -21,6 +21,14 @@
   padding: 20px 30px;
   text-transform: uppercase;
   border: none;
+  margin-top: 15px;
+}
+
+.party span {
+  text-decoration: underline;
+  color: rgb(118, 118, 213);
+  font-family: "Cormorant Upright", serif;
+  font-style: italic;
 }
 
 @media (max-width: 426px) {

@@ -22,8 +22,11 @@ const Details = () => {
             Where
           </span>
           <span>Trinity Methodist Church Kwadaso Estate, Kumasi</span>
-          <span style={{ textDecoration: "underline", paddingTop: "10px" }}>
-            <a href="https://maps.google.com/maps?q=6.6888394713528285%2C-1.6491508483886719&z=17&hl=en">
+          <span>
+            <a
+              style={{ textDecoration: "underline", marginTop: "10px" }}
+              href="https://maps.google.com/maps?q=6.6888394713528285%2C-1.6491508483886719&z=17&hl=en"
+            >
               View Map
             </a>
           </span>
