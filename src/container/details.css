@@ -16,18 +16,6 @@
   padding-left: 70px;
 }
 
-.gallery {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #2f2e2e;
-  text-align: center;
-  color: #fafafa;
-  font-family: "Cormorant Upright", serif;
-}
-
 .weddingday h5 {
   font-family: "Bradon Grotesque", sans-serif;
   font-weight: 100;
