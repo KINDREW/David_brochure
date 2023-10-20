@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+small {
+  background: white;
+}
+
 .wandecoal {
   position: absolute;
   /* width: 30px; */

@@ -18,7 +18,7 @@ const Eightpage = () => {
         <span className="bruced">Couple's First Dance </span>
         <span className="bruced">Vote of Thanks </span>
         <span className="bruced">Bouquet Throwing </span>
-        <span className="bruced">CLosing Prayer </span>
+        <span className="bruced">Closing Prayer </span>
         <span className="bruced">Couple's Exit</span>
         <span className="bruced">Recessional </span>
       </div>

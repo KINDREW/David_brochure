@@ -33,6 +33,18 @@ const Credits2 = () => {
           <span class="bru" style={{ fontSize: "18px" }}>
             Chef Prince
           </span>
+          <span class="content" style={{ marginTop: "15px" }}>
+            <strong>Publicity</strong>
+          </span>
+          <span class="bru" style={{ fontSize: "18px" }}>
+            Xpress Advertising Agency
+          </span>
+          <span class="content" style={{ marginTop: "15px" }}>
+            <strong>Web Development</strong>
+          </span>
+          <span class="bru" style={{ fontSize: "18px" }}>
+            Andrew
+          </span>
         </div>
       </div>
     </div>
