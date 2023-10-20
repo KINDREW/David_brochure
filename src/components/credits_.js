@@ -40,7 +40,7 @@ const Credits2 = () => {
             Xpress Advertising Agency
           </span>
           <span class="content" style={{ marginTop: "15px" }}>
-            <strong>Web Development</strong>
+            <strong>Web Development💻</strong>
           </span>
           <span class="bru" style={{ fontSize: "18px" }}>
             Andrew✌🏾
