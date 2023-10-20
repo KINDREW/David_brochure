@@ -18,10 +18,12 @@ const Details = () => {
           <span>Wedding Ceremony: 11:30am</span>
         </div>
         <div className="location1">
-          <span className="biggie" style={{ paddingTop: "20px" }}>
+          <span className="biggie" style={{ paddingTop: "40px" }}>
             Where
           </span>
-          <span>Trinity Methodist Church Kwadaso Estate, Kumasi</span>
+          <span>
+            Trinity Methodist Church <br /> Kwadaso Estate, Kumasi
+          </span>
           <span>
             <a
               style={{ textDecoration: "underline", marginTop: "10px" }}
@@ -36,7 +38,6 @@ const Details = () => {
           <span>424 A, Kwadaso Estate </span>
           <span>
             Digital Address: AK-226-2249 <br />
-            <br />
             <a
               style={{ textDecoration: "underline", marginTop: "10px" }}
               href="https://maps.google.com/maps?q=6.686772240091932%2C-1.6489684581756592&z=17&hl=en"
